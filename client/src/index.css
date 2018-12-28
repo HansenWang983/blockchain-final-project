@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align:center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color:#d0e4fe;
+  width:100%;
+  height: 100%;
+}
+
+#root{
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
+
+.App{
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.col-lg-12{
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
+
+.jumbotron{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  background-color:#d0e4fe;
+}
+
+.panel-info{
+  width:30%;
+  height: 45%;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choicebutton{
+  width:70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding :20px;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+#loginpanel{
+  width:30%;
+  height: 45%;
+  vertical-align:middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logininput{
+  padding: 20px;
+}
+#loginbutton{
+  padding: 10px;
+}
+
+#choicepanel{
+  width:30%;
+  height: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#userchoice{
+  padding: 20px;
+}
+
+#releasepannel{
+  width:50%;
+  height: 60%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#releasebutton{
+  padding-left: 160px;
+  padding-top : 50px;
+}
+
+#querypanel{
+  width:70%;
+  height: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#querybutton{
+  padding: 20px;
+  left: 20%;
+}
+
+#returnbutton{
+  position:absolute;
+  bottom:20px;
+  left: 50%;
+}
+
+#acceptpanel{
+  width:40%;
+  height: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#accepttext{
+  padding: 10px;
+}
+
+#acceptinfo{
+  color: firebrick;
+  padding: 10px;
+  background-color: #d6b384;
+  border : 2px;
+  border:2px solid;
+  border-radius:15px;
+}
+
+#acceptbutton{
+  padding : 20px;
+}
