@@ -37,7 +37,7 @@ npm run start （默认在本地3000端口）
 - 不可篡改特性：防止钓鱼用户投机，将发布的信息篡改。
 - 匿名性：对用户相对的隐私保护
 
-[具体合约设计](https://github.com/hansenbeast/blockchain-final-project/合约部署报告.md)
+[具体合约设计](https://github.com/hansenbeast/blockchain-final-project/blob/master/%E5%90%88%E7%BA%A6%E9%83%A8%E7%BD%B2%E6%8A%A5%E5%91%8A.md)
 
 ## 成果展示
 
