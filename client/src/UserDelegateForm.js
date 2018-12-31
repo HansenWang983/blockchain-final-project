@@ -1,9 +1,9 @@
 import React from 'react'
 import {Panel,Button,Table} from 'react-bootstrap'
 class UserDelegateForm extends React.Component {
-  constructor(props){
-    super(props);
-  }
+  // constructor(props){
+  //   super(props);
+  // }
 
   render() {
     

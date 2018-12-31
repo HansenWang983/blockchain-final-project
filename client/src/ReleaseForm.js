@@ -1,9 +1,9 @@
 import React from 'react'
 import {Form,FormGroup,Col,ControlLabel,FormControl,Button,Panel} from 'react-bootstrap'
 class ReleaseForm extends React.Component {
-  constructor(props){
-    super(props);
-  }
+  // constructor(props){
+  //   super(props);
+  // }
 
   render() {
     return (

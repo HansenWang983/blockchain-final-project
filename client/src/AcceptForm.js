@@ -2,9 +2,9 @@ import React from 'react'
 import { Table, Button,Panel } from 'react-bootstrap';
 
 class AcceptForm extends React.Component {
-  constructor(props){
-    super(props);    
-  }
+  // constructor(props){
+  //   super(props);    
+  // }
 
   render() {
     // console.log(this.props.delegateInfo);
@@ -111,7 +111,7 @@ class AcceptForm extends React.Component {
             }} className='btn btn-primary'>接受委托</Button></td>
           </tr>
           
-          { <tr>
+          {/* <tr>
             <td>2</td>
             <td>0x007256C0070e34Fb03669c07860FE8A1f07009Ce</td>
             <td>至善园2号</td>
@@ -119,9 +119,9 @@ class AcceptForm extends React.Component {
             <td><Button onClick={(event) => {
               this.props.acceptDelegate(requestor);
             }} className='btn btn-primary'>接受委托</Button></td>
-          </tr> */}
+          </tr> 
 
-          { <tr>
+          <tr>
             <td>3</td>
             <td>0x95a8d5DDF846306AFF31171a465632EF16Ab4D68</td>
             <td>至善园4号</td>
@@ -149,7 +149,7 @@ class AcceptForm extends React.Component {
             <td><Button onClick={(event) => {
               this.props.acceptDelegate(requestor);
             }} className='btn btn-primary'>接受委托</Button></td>
-          </tr> }
+          </tr> */}
         </tbody>
       </Table>
       <div id="returnbutton">

@@ -8,7 +8,6 @@ class ChoiceForm extends React.Component {
 //   } 
 
   render() {
-    const divStyle = {height : 50 ,width : 150}
     return (
       <Panel bsStyle="primary" id="choicepanel">
       <Panel.Heading>

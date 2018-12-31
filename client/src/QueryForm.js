@@ -1,9 +1,9 @@
 import React from 'react'
 import {Button,Panel} from 'react-bootstrap'
 class QueryForm extends React.Component {
-  constructor(props){
-    super(props);
-  }
+  // constructor(props){
+  //   super(props);
+  // }
 
   render() {
     return (

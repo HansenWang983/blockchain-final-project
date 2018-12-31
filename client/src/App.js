@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TruffleContract from 'truffle-contract'
 import ProjectContract from "./contracts/Project.json";
-import getWeb3 from "./utils/getWeb3";
+// import getWeb3 from "./utils/getWeb3";
 import Web3 from "web3"
 import Content from './Content'
 import "./App.css";
@@ -98,7 +98,7 @@ class App extends Component {
            return;
           }
           else{
-            alert("登陆成功");
+            alert("登录成功");
           } 
         }).then((res) => {
           this.account = addr;
@@ -113,7 +113,7 @@ class App extends Component {
         console.log(addr);
         this.account = addr;
         this.setState({ hasLogined : true});
-        alert("注册成功");
+        alert("注册成功，钱包地址为: "+addr);
       })
     }
     releaseDelegate(source,destination,code,pay){
@@ -141,9 +141,6 @@ class App extends Component {
               }
               this.setState({ choice: ''});
           })
-          // setTimeout(() => {
-          //   window.location.reload();
-          // }, 10000);
         } catch (err) {
           console.error(err);
           this.setState({ message: err.message || err.toString(), loading: false });
@@ -181,6 +178,7 @@ class App extends Component {
 
         
         this.contractInstance.getDelegation(source).then((res)=>{
+          // eslint-disable-next-line
           if(res!=0){
             this.contractInstance.delegate(source,{
               from : this.account

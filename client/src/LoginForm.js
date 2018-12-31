@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Button,Jumbotron,ProgressBar,Panel,ButtonToolbar} from 'react-bootstrap';
+import {  Button,Jumbotron,Panel} from 'react-bootstrap';
 
 class LoginForm extends React.Component {
   // constructor(props){
@@ -79,7 +79,7 @@ class LoginForm extends React.Component {
             this.props.userRegister(event.target.password.value);
         }}>
         <div className="form-group" id="logininput">
-       <input type="password"  className="auth-form-body" name="password" placeholder="密码" id="password" className="form-control" required/>
+       <input type="password" name="password" placeholder="密码" id="password" className="form-control" required/>
        </div>
        <div className="form-group" id="logininput">
        <input type="submit" name="commit" value="注册" className="btn btn-primary btn-block"/>
